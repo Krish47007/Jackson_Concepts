@@ -1,5 +1,8 @@
 package org.krish.jackson.demo;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)     //Tells jackson to ignore unknown properties
 public class Student_2 {
 
     private int id;
